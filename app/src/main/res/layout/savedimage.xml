@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#3F0099"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="웹페이지에서 다운받은 이미지 저장하기 "
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:scaleType="center" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="저장하기" />
+</LinearLayout>
