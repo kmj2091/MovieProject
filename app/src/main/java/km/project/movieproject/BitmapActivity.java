@@ -79,9 +79,6 @@ public class BitmapActivity extends Activity {
            img_download.setImageBitmap(bitmap);
            progressDialog.dismiss();
 
-           // 새로운내용을 추가합니다.
-            // 또 추가함.
-            // 또또 추가함.
         }
     }
 
